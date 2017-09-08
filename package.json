@@ -14,7 +14,8 @@
     "publish-coverage": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "pre-pack": "yarn run lint",
     "prepush": "yarn run test && yarn run lint",
-    "prepublish": "yarn run test && yarn run lint"
+    "prepublish": "yarn run test && yarn run lint",
+    "npm:publish": "yarn publish --access public"
   },
   "repository": {
     "type": "git",
