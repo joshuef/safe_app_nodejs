@@ -1,4 +1,6 @@
-# safenet-node-app
+#safe-node-app
+
+A nodejs API for the [SAFE Network](http://maidsafe.net).
 
 **Maintainer:** Krishna Kumar (krishna.kumar@maidsafe.net)
 
@@ -14,7 +16,7 @@ safe_app Node.js library.
 
 ## Documentation
 
-The documentation for the safenet-node-app Node.js API is available at http://docs.maidsafe.net/safe_app_nodejs/.
+The documentation for the safe-node-app Node.js API is available at http://docs.maidsafe.net/safe_app_nodejs/.
 
 ## Installation
 
