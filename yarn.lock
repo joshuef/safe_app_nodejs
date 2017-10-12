@@ -1937,13 +1937,13 @@ faye-websocket@~0.10.0:
   dependencies:
     websocket-driver ">=0.5.1"
 
-ffi@^2.2.0:
+ffi@joshuef/node-ffi:
   version "2.2.0"
-  resolved "https://registry.yarnpkg.com/ffi/-/ffi-2.2.0.tgz#bf18b04666a29f71227ed56895d5430af47042fa"
+  resolved "https://codeload.github.com/joshuef/node-ffi/tar.gz/7c5686dc506c25127efa5da724c89855a28f3a94"
   dependencies:
     bindings "~1.2.0"
     debug "2"
-    nan "2"
+    nan "^2.7.0"
     ref "1"
     ref-struct "1"
 
@@ -3360,7 +3360,7 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
-nan@2, nan@^2.0.5, nan@^2.3.0:
+nan@2, nan@^2.0.5, nan@^2.3.0, nan@^2.7.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
 
