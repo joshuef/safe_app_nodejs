@@ -610,7 +610,7 @@ class MutableDataInterface {
   * @returns {Promise<MutableData>}
   */
   newPublic(name, typeTag) {
-    const mDataInfo = lib.makeMDataInfoObj({ name, typeTag: typeTag });
+    const mDataInfo = lib.makeMDataInfoObj({ name, typeTag });
     return Promise.resolve(this.wrapMdata(mDataInfo));
   }
 
