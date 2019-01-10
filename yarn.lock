@@ -309,6 +309,7 @@ bindings@1, bindings@^1.2.1:
 bindings@~1.2.0:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
+  integrity sha1-FK1hE4EtLTfXLme0ystLtyZQXxE=
 
 bluebird@~3.5.0:
   version "3.5.3"
@@ -890,9 +891,9 @@ fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
 
-ffi@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/ffi/-/ffi-2.2.0.tgz#bf18b04666a29f71227ed56895d5430af47042fa"
+"ffi@https://github.com/node-ffi/node-ffi.git":
+  version "2.3.0"
+  resolved "https://github.com/node-ffi/node-ffi.git#04ec7771c9ed64a34762533819e08c7decaa633d"
   dependencies:
     bindings "~1.2.0"
     debug "2"
