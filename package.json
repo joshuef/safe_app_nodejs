@@ -40,6 +40,7 @@
   "dependencies": {
     "cids": "bochaco/js-cid#temp-use-bochaco-multicodec",
     "cross-env": "5.1.3",
+    "dep_repository": "https://github.com/joshuef/dep_repository#SourceFromAWS",
     "deps_downloader": "https://github.com/joshuef/deps_downloader#Copying",
     "enum": "^2.3.0",
     "ffi": "^2.3.0",
@@ -74,21 +75,8 @@
       "filePattern": "^.*\\.(dll|so|dylib)$",
       "filename": "system_uri"
     },
-    "safe_app": {
-      "mirror": "https://s3.eu-west-2.amazonaws.com/safe-client-libs",
-      "version": "0.9.0",
-      "targetDir": "src/native/prod",
-      "filename": "safe_app",
-      "filePattern": "^.*\\.(dll|so|dylib)$",
-      "force": true
-    },
     "ENV": {
       "dev": {
-        "safe_app": {
-          "targetDir": "src/native/mock",
-          "filename": "safe_app-mock",
-          "override": false
-        },
         "system_uri": {
           "targetDir": "src/native/mock",
           "override": false
