@@ -19,6 +19,11 @@ const { getSystemUriLibFilename } = require('../helpers');
 const os = require('os');
 
 const currentDir = path.dirname(__filename);
+const nodeModulesDir = path.resolve( __dirname ,  '..','..', 'node_modules');
+const platform = process.platform;
+let safeLibDir = path.resolve( nodeModulesDir, `safe-app-${platform}`);
+
+console.log('SAFE APP LIB DIR', safeLibDir)
 
 const api = require('./api');
 const makeError = require('./_error.js');
@@ -32,7 +37,7 @@ let lib = null;
 
 ffi.init = (options) => {
   try {
-    lib = FFI.DynamicLibrary(getSafeAppLibFilename(currentDir, options), mode);
+    lib = FFI.DynamicLibrary(getSafeAppLibFilename(safeLibDir, options), mode);
 
     api.forEach((mod) => {
       if (!lib) {
