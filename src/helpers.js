@@ -203,8 +203,6 @@ const getNativeLibPath = (defaultDir, options, filename) => {
     libPathModifier = consts.LIB_LOCATION_MOCK;
   }
   const libPath = path.join(baseDir, libPathModifier, filename);
-
-  console.log('LIBPATHHH', libPath)
   return libPath;
 };
 
