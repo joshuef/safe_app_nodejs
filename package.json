@@ -50,8 +50,8 @@
     "weak": "^1.0.1"
   },
   "optionalDependencies": {
-    "safe-app-darwin": "https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz",
-    "safe-app-linux": "https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz"
+    "safe-app-darwin": "https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz#F",
+    "safe-app-linux": "https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz#F"
   },
   "devDependencies": {
     "braintree-jsdoc-template": "^3.3.0",

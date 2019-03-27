@@ -2297,26 +2297,18 @@ rx-lite@^3.1.2:
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-3.1.2.tgz#19ce502ca572665f3b647b10939f97fd1615f102"
   integrity sha1-Gc5QLKVyZl87ZHsQk5+X/RYV8QI=
 
-"safe-app-darwin@https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz":
-  version "1.0.0"
-  resolved "https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz#3d92042010513c9da242a4866949608504f8c97e"
-  dependencies:
-    safe_app "https://github.com/joshuef/dep_repository/raw/Storage/safe_app/libsafe_app.dylib.tar.gz"
+"safe-app-darwin@https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz#F":
+  version "1.0.2"
+  resolved "https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz#F"
 
-"safe-app-linux@https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz":
-  version "1.0.0"
-  resolved "https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz#5715db8ab8843052dd6c7f02954ca644066e1535"
-  optionalDependencies:
-    safe_app "https://github.com/joshuef/dep_repository/raw/Storage/safe_app/libsafe_app.dylib.tar.gz"
+"safe-app-linux@https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz#F":
+  version "1.0.2"
+  resolved "https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz#F"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
-
-"safe_app@https://github.com/joshuef/dep_repository/raw/Storage/safe_app/libsafe_app.dylib.tar.gz":
-  version "0.0.0"
-  resolved "https://github.com/joshuef/dep_repository/raw/Storage/safe_app/libsafe_app.dylib.tar.gz#727b3e4e8d04406d74338bb2fb386b12f8a4f1a5"
 
 "safer-buffer@>= 2.1.2 < 3", safer-buffer@^2.0.2, safer-buffer@^2.1.0, safer-buffer@~2.1.0:
   version "2.1.2"
