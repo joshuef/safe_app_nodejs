@@ -49,10 +49,10 @@
     "ref-struct": "^1.1.0",
     "weak": "^1.0.1"
   },
-  "optionalDependencies" : {
-  "safe-app-darwin" : "https://s3.eu-west-2.amazonaws.com/safe-client-libs/safe_app-0.9.1-osx-x64.tar.gz",
-  "safe-app-linux" : "https://s3.eu-west-2.amazonaws.com/safe-client-libs/safe_app-0.9.1-linux-x64.tar.gz"
-},
+  "optionalDependencies": {
+    "safe-app-darwin": "https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz",
+    "safe-app-linux": "https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz"
+  },
   "devDependencies": {
     "braintree-jsdoc-template": "^3.3.0",
     "coveralls": "^2.13.0",
