@@ -2297,13 +2297,13 @@ rx-lite@^3.1.2:
   resolved "https://registry.yarnpkg.com/rx-lite/-/rx-lite-3.1.2.tgz#19ce502ca572665f3b647b10939f97fd1615f102"
   integrity sha1-Gc5QLKVyZl87ZHsQk5+X/RYV8QI=
 
-"safe-app-darwin@https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz#F":
+"safe-app-darwin@https://s3.eu-west-2.amazonaws.com/safe-client-libs/josh-darwin.tar.gz":
   version "1.0.2"
-  resolved "https://github.com/joshuef/dep_repository/raw/master/darwin.tar.gz#F"
+  resolved "https://s3.eu-west-2.amazonaws.com/safe-client-libs/josh-darwin.tar.gz#557db796e4f31e8a9622abe81a73ab212047ca8d"
 
-"safe-app-linux@https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz#F":
+"safe-app-linux@https://s3.eu-west-2.amazonaws.com/safe-client-libs/josh-linux.tar.gz":
   version "1.0.2"
-  resolved "https://github.com/joshuef/dep_repository/raw/master/linux.tar.gz#F"
+  resolved "https://s3.eu-west-2.amazonaws.com/safe-client-libs/josh-linux.tar.gz#92267614c15b43f394256c2820f9b23eb996765c"
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
