@@ -50,8 +50,8 @@
     "weak": "^1.0.1"
   },
   "optionalDependencies": {
-    "safe-app-darwin": "https://s3.eu-west-2.amazonaws.com/safe-client-libs/josh-darwin.tar.gz",
-    "safe-app-linux": "https://s3.eu-west-2.amazonaws.com/safe-client-libs/josh-linux.tar.gz"
+    "safe-app-darwin": "https://github.com/joshuef/dep_repository/releases/download/test/darwin.tar.gz",
+    "safe-app-linux": "https://github.com/joshuef/dep_repository/releases/download/test/linux.tar.gz"
   },
   "devDependencies": {
     "braintree-jsdoc-template": "^3.3.0",
