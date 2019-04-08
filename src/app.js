@@ -718,7 +718,7 @@ class SAFEApp extends EventEmitter {
   */
   _networkStateUpdated(userData, newState) {
     const prevState = this.networkState;
-    this.networkState = newState;
+    Object.defineProperty(this, '_networkState', { value: newState });
     this.emit('network-state-updated', this.networkState, prevState);
     this.emit(`network-state-${this.networkState}`, prevState);
     if (this._networkStateCallBack) {
